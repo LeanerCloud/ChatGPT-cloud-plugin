@@ -6,7 +6,7 @@ ChatGPT plugin that will (one day) allow us to manage cloud resources from ChatG
 
 1. a local Flask web server that
 
-- uses botocore to authenticate to AWS using a profile from `.aws/config`, for now hardcoded to `personal`
+- uses botocore to authenticate to AWS using a profile from `.aws/config`, given from the CLI when starting the web server
 - serves a few static files required by the plugin documentation
 - forwards requests received to AWS, authenticated with SigV4
 
