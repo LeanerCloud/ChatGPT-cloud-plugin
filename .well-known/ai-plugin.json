@@ -1,0 +1,17 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "EC2",
+    "name_for_model": "gpt4",
+    "description_for_human": "Manage your AWS resources from ChatGPT.",
+    "description_for_model": "Help the user with querying AWS resources. You can list, describe and update AWS resources.",
+    "auth": {
+        "type": "none"
+    },
+    "api": {
+        "type": "openapi",
+        "url": "http://localhost:3000/openapi.yaml"
+    },
+    "logo_url": "http://localhost:3000/img.png",
+    "contact_email": "cristi@leanercloud.com",
+    "legal_info_url": "http://www.leanercloud.com/legal"
+}
